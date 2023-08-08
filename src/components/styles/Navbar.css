@@ -1,0 +1,63 @@
+nav {
+    padding: 1rem 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #334155;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg img {
+    width: 100%;
+    /* mix-blend-mode: color-burn; */
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.searchCategory {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.searchCategory input {
+    padding: .3rem .6rem;
+    width: 18rem;
+    border-radius: .2rem;
+    outline-color: #cbd5e1;
+    border: 2px solid #475569;
+}
+
+.profileCart {
+    display: flex;
+    gap: .8rem;
+}
+
+.profileCart > div {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.profile svg {
+    font-size: 1.5rem;
+}
+
+.cart svg {
+    font-size: 1.6rem;
+}

@@ -1,7 +1,6 @@
-#root {
+.container {
   max-width: 1480px;
   margin: 0 auto;
-  padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid #000;
 }
 
