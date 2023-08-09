@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
-import { BsStarFill, BsStarHalf } from "react-icons/bs";
+import { BsStarFill, BsStarHalf, BsHeart } from "react-icons/bs";
 import './styles/ItemStyles.css'
 
 const GalaxyBook = ({ book }) => {
     return (
         <div className="item">
         <div className="itenImg">
+            <div className="favourite">
+                <BsHeart />
+            </div>
             <img src={book.img} alt="galaxybook" />
         </div>
 
