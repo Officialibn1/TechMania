@@ -1,9 +1,8 @@
 nav {
-    padding: 1rem 1.8rem;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #334155;
 }
 
 .logo {
@@ -35,12 +34,23 @@ nav {
     gap: .5rem;
     align-items: center;
 }
-.searchCategory input {
-    padding: .3rem .6rem;
-    width: 18rem;
-    border-radius: .2rem;
-    outline-color: #cbd5e1;
+
+.search {
+    display: flex;
+    align-items: center;
     border: 2px solid #475569;
+    border-radius: .2rem;
+    padding: .3rem .6rem;
+}
+
+.search input {
+    width: 18rem;
+    outline: none;
+    border: none;
+}
+
+.search  svg {
+    cursor: pointer;
 }
 
 .profileCart {

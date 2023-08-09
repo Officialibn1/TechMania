@@ -1,6 +1,7 @@
 import './styles/Navbar.css'
 import { FaUserAlt } from "react-icons/fa";
 import { MdShoppingCart } from "react-icons/md";
+import { BsSearch } from "react-icons/bs";
 
 
 const Navbar = () => {
@@ -17,7 +18,10 @@ const Navbar = () => {
             <div className="searchCategory">
                 <p>Categories</p>
 
-                <input type="search" alt='search item' placeholder='Search Item. . .'/>
+                <div className="search">
+                    <input type="search" alt='search item' placeholder='Search Item. . .'/>
+                    <BsSearch />
+                </div>
             </div>
 
             <div className="profileCart">

@@ -1,7 +1,11 @@
+import Banner from "../components/Banner";
+import Macbooks from "../components/Macbooks";
+
 const Home = () => {
     return (
         <>
-            <h1>HomePage</h1>
+            <Banner />
+            <Macbooks />
         </>
     );
 }

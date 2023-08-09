@@ -10,4 +10,18 @@
 
 body {
   background: #f8fafc;
+  color: #334155;
+}
+
+.header {
+  height: 80px;
+  margin: 50px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header h1 {
+  font-size: clamp(2rem, 2.5vw, 3.5rem);
+  font-weight: 500;
 }
