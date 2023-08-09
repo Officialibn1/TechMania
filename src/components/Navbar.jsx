@@ -1,19 +1,19 @@
 import './styles/Navbar.css'
 import { FaUserAlt } from "react-icons/fa";
 import { MdShoppingCart } from "react-icons/md";
-import { BsSearch } from "react-icons/bs";
+import { BsSearch, BsCart4 } from "react-icons/bs";
 
 
 const Navbar = () => {
     return (
         <nav>
-            <div className="logo">
+            <a href='/' className="logo">
                 <div className="logoImg">
-                    <img src="cart.png" alt="cart logo" />
+                    <BsCart4 />
                 </div>
 
                 <span>TechMania</span>
-            </div>
+            </a>
 
             <div className="searchCategory">
                 <p>Categories</p>

@@ -1,0 +1,89 @@
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    background-image: linear-gradient(155deg, #475569, #1e293b);
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+footer > div {
+    /* border: 2px solid #fff; */
+}
+
+footer .logo {
+    justify-content: flex-start;
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+footer .logo svg{
+    font-size: 3rem;
+}
+
+footer .logo span {
+    font-weight: 400;
+}
+
+footer .middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .middle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+footer .middle ul li span {
+    color: #f8fafc;
+    font-size: 1.4rem;
+}
+
+
+footer .middle ul li a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: #f8fafc;
+    position: relative;
+}
+
+footer .middle ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 0;
+    background-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+    transition: width 250ms ease;
+}
+
+footer .middle ul li a:hover:before {
+    width: 100%;
+}
+
+/* Rigth Footer Section */
+footer .right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+footer .right .icons {
+    display: flex;
+    gap: 1rem;
+}
+footer .right .icons a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .right .icons a svg {
+    color: #f8fafc;
+}

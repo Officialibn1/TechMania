@@ -9,6 +9,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #334155;
 }
 
 .logoImg {
@@ -19,9 +21,8 @@ nav {
     justify-content: center;
 }
 
-.logoImg img {
-    width: 100%;
-    /* mix-blend-mode: color-burn; */
+.logoImg svg {
+    font-size: 3rem;
 }
 
 .logo span {
