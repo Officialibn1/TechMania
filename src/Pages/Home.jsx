@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import GalaxyBooks from "../components/GalaxyBooks";
 import Macbooks from "../components/Macbooks";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <Banner />
             <Macbooks />
+            <GalaxyBooks />
         </>
     );
 }

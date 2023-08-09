@@ -36,3 +36,39 @@ export const macBooks = [
         star: 4.5
     },
 ]
+
+export const galaxyBooks = [
+    {
+        id: 1,
+        name: `Book2 Pro`,
+        price: `N380,799`,
+        img: `book2pro.png`,
+        chip: `Core i7`,
+        star: 4.5
+    },
+    {
+        id: 2,
+        name: `Book2`,
+        price: `N480,000`,
+        img: `book2pro.png`,
+        chip: `Core i5`,
+        star: 4.2
+    },
+    {
+        id: 3,
+        name: `Book3 Ultra`,
+        price: `N650,500`,
+        img: `book3pro1.png`,
+        chip: `Core i9`,
+        star: 4.8
+    },
+    {
+        id: 4,
+        name: `Book3 Pro`,
+        price: `N530,200`,
+        img: `book3pro.png`,
+        chip: `Core i7`,
+        star: 4.7
+    },
+
+];

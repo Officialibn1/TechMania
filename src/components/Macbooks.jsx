@@ -1,4 +1,3 @@
-import './styles/Macbooks.css'
 import './styles/ItemStyles.css'
 import { macBooks } from "../data";
 import Macbook from './Macbook';
