@@ -1,4 +1,6 @@
 import { BsArrowRight } from "react-icons/bs";
+import { iPhones } from "../data";
+import Iphone from "./Iphone";
 
 const Iphones = () => {
     return (
@@ -16,7 +18,9 @@ const Iphones = () => {
             </div>
 
             <div className="itemContainer">
-                
+                {iPhones.map(iPhone => (
+                    <Iphone key={iPhone.id} iPhone={iPhone} />
+                ))}
             </div>
         </div>
     );

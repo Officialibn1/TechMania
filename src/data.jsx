@@ -83,7 +83,7 @@ export const iPhones = [
         star: 5
     },
     {
-        id: 1,
+        id: 2,
         name: `iPhone 14`,
         price: `N790,000`,
         img: `iphones/iphone14blue.png`,
@@ -91,7 +91,7 @@ export const iPhones = [
         star: 4.5
     },
     {
-        id: 1,
+        id: 3,
         name: `iPhone 14 Pro`,
         price: `N920,700`,
         img: `iphones/iphone14progold.png`,
@@ -99,11 +99,11 @@ export const iPhones = [
         star: 4.8
     },
     {
-        id: 1,
+        id: 4,
         name: `iPhone 14`,
         price: `N750,000`,
         img: `iphones/iphone14yellow.png`,
         color: 'Yellow',
         star: 4
-    },
+    }
 ]

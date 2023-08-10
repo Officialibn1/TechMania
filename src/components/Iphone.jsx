@@ -1,20 +1,19 @@
 /* eslint-disable react/prop-types */
 import { BsStarFill, BsStarHalf, BsHeart } from "react-icons/bs";
-import './styles/ItemStyles.css'
 
-const GalaxyBook = ({ book }) => {
+const Iphone = ({ iPhone }) => {
     return (
-        <div className="item">
+        <div className="item phoneItem">
             <div className="itemImg">
                 <div className="favourite">
                     <BsHeart />
                 </div>
-                <img src={book.img} alt="galaxybook" />
+                <img src={iPhone.img} alt="galaxybook" />
             </div>
 
             <div className="itemText">
-                <span>{book.chip} <p className="price">{book.price}</p> </span>
-                <h1>Galaxy {book.name}</h1>
+                <span>{iPhone.color} <p className="price">{iPhone.price}</p> </span>
+                <h1>{iPhone.name}</h1>
                 <div className="review">
                     <BsStarFill />
                     <BsStarFill />
@@ -30,4 +29,4 @@ const GalaxyBook = ({ book }) => {
     );
 }
 
-export default GalaxyBook;
+export default Iphone;

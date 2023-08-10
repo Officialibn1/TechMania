@@ -5,7 +5,7 @@ import './styles/ItemStyles.css'
 const Macbook = ({ mac }) => {
     return (
         <div className="item">
-        <div className="itenImg">
+        <div className="itemImg">
         <div className="favourite">
                 <BsHeart />
             </div>
