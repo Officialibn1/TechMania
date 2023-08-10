@@ -7,10 +7,6 @@ footer {
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-footer > div {
-    /* border: 2px solid #fff; */
-}
-
 footer .logo {
     justify-content: flex-start;
     color: #f8fafc;
