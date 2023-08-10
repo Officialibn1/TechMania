@@ -1,15 +1,12 @@
-import './styles/ItemStyles.css'
-import { galaxyBooks } from "../data";
-import GalaxyBook from './GalaxyBook';
 import { BsArrowRight } from "react-icons/bs";
 
-const GalaxyBooks = () => {
+const Iphones = () => {
     return (
-        <div className="galaxyBook">
+        <div className="iPhones">
             <div className="barLine"></div>
             <div className="header">
                 <h1>
-                    Galaxy Books
+                    iPhones
                 </h1>
 
                 <a className='viewMore' href="#">
@@ -19,14 +16,10 @@ const GalaxyBooks = () => {
             </div>
 
             <div className="itemContainer">
-                {galaxyBooks.map(book => (
-                    <GalaxyBook key={book.id} book={book}/> 
-                ))}
-               
+                
             </div>
-
         </div>
     );
 }
 
-export default GalaxyBooks;
+export default Iphones;

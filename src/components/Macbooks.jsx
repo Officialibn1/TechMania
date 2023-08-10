@@ -9,7 +9,7 @@ const Macbooks = () => {
             <div className="barLine"></div>
             <div className="header">
                 <h1>
-                    MacBooks For You!
+                    MacBooks
                 </h1>
                 <a className='viewMore' href="#">View more <BsArrowRight /></a>
             </div>

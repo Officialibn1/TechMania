@@ -1,11 +1,13 @@
 import Banner from "../components/Banner";
 import GalaxyBooks from "../components/GalaxyBooks";
+import Iphones from "../components/Iphones";
 import Macbooks from "../components/Macbooks";
 
 const Home = () => {
     return (
         <>
             <Banner />
+            <Iphones />
             <Macbooks />
             <GalaxyBooks />
         </>

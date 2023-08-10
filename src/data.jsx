@@ -72,3 +72,38 @@ export const galaxyBooks = [
     },
 
 ];
+
+export const iPhones = [
+    {
+        id: 1,
+        name: `iPhone 14 Pro`,
+        price: `N890,700`,
+        img: `iphones/iphone14pro.png`,
+        color: 'Purple',
+        star: 5
+    },
+    {
+        id: 1,
+        name: `iPhone 14`,
+        price: `N790,000`,
+        img: `iphones/iphone14blue.png`,
+        color: 'Blue',
+        star: 4.5
+    },
+    {
+        id: 1,
+        name: `iPhone 14 Pro`,
+        price: `N920,700`,
+        img: `iphones/iphone14progold.png`,
+        color: 'Gold',
+        star: 4.8
+    },
+    {
+        id: 1,
+        name: `iPhone 14`,
+        price: `N750,000`,
+        img: `iphones/iphone14yellow.png`,
+        color: 'Yellow',
+        star: 4
+    },
+]
