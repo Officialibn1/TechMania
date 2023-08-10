@@ -1,4 +1,5 @@
 import './App.css'
+import About from './Pages/About'
 import Home from './Pages/Home'
 import Announcement from './components/Announcement'
 import Footer from './components/Footer'
@@ -11,7 +12,8 @@ function App() {
       <Announcement /> 
       <div className="container">
         <Navbar />
-        <Home />        
+        {/* <Home />   */}
+        <About />      
       </div>  
       <Footer />
     </>
