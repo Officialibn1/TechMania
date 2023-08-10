@@ -1,3 +1,4 @@
+/* Stylings for the about page banner */
 .aboutBanner {
     width: 100%;
     min-height: 500px;
@@ -31,4 +32,43 @@
     height: 2px;
     width: 100%;
     background-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+}
+
+/* Stylings for the about page text */
+.aboutText {
+    text-align: justify;
+    color: #334155;
+}
+
+.aboutText p {
+    margin: 20px 0;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.aboutText ul {
+    list-style: none;
+}
+
+.aboutText ul li {
+    margin: 10px 0;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.aboutText h3 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 300;    
+    margin-top: 3rem;
+}
+
+.aboutText h3::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+
 }
