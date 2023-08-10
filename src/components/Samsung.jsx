@@ -1,19 +1,19 @@
 /* eslint-disable react/prop-types */
 import { BsStarFill, BsStarHalf, BsHeart } from "react-icons/bs";
 
-const Iphone = ({ iPhone }) => {
+const Samsung = ({ samsung }) => {
     return (
         <div className="item phoneItem">
             <div className="itemImg">
                 <div className="favourite">
                     <BsHeart />
                 </div>
-                <img src={iPhone.img} alt="galaxybook" />
+                <img src={samsung.img} alt="galaxybook" />
             </div>
 
             <div className="itemText">
-                <span><b>Color:</b> {iPhone.color} <p className="price">{iPhone.price}</p> </span>
-                <h1>{iPhone.name}</h1>
+                <span><b>Color:</b> {samsung.color} <p className="price">{samsung.price}</p> </span>
+                <h1>{samsung.name}</h1>
                 <div className="review">
                     <BsStarFill />
                     <BsStarFill />
@@ -29,4 +29,4 @@ const Iphone = ({ iPhone }) => {
     );
 }
 
-export default Iphone;
+export default Samsung;

@@ -107,3 +107,38 @@ export const iPhones = [
         star: 4
     }
 ]
+
+export const samsungs =  [
+    {
+        id: 1,
+        name: `Samsung Fold5`,
+        price: `N690,700`,
+        img: `galaxys/fold5.png`,
+        color: 'Grey',
+        star: 4.3
+    },
+    {
+        id: 2,
+        name: `Samsung S23 Ultra`,
+        price: `N895,000`,
+        img: `galaxys/s23ultragraphite.png`,
+        color: 'Graphite',
+        star: 5
+    },
+    {
+        id: 3,
+        name: `Samsung Fold5`,
+        price: `N690,700`,
+        img: `galaxys/fold5.png`,
+        color: 'Grey',
+        star: 4.3
+    },
+    {
+        id: 4,
+        name: `Samsung S23 Ultra`,
+        price: `N895,000`,
+        img: `galaxys/s23ultragraphite.png`,
+        color: 'Graphite',
+        star: 5
+    },
+]
