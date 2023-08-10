@@ -1,8 +1,6 @@
-# React + Vite
+# TechMania
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TechMania is an ecommerce dropshipping website build with React & Vite, it user is built to be as somple as possible and a variety of features like an AI powered customer assistance chatbot 💬 is integrated to help visitors with necessary informations and answers to some of their basic questions.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As of now the site is still in its development stage. 
