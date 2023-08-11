@@ -1,9 +1,9 @@
 import './styles/Announcement.css'
-import { GrAnnounce } from "react-icons/gr";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
 const Announcement = () => {
     return (
         <div className='announcement'>
-            <GrAnnounce />
+            <HiOutlineSpeakerphone />
             Welcome to TechMania your best place to shop for your next gadget. Order goods worth 250k above and win a free gift.! 🎁
         </div>
     );
