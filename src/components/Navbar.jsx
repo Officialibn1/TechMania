@@ -30,7 +30,7 @@ const Navbar = () => {
                     <span>Profile</span>
                 </div>
 
-                <div className="cart">
+                <div className="cartIcon">
                     <MdShoppingCart />
                     <span>Cart</span>
                 </div>
