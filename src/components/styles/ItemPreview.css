@@ -1,0 +1,176 @@
+.itemPreview {
+    /* height: 500px; */
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin: 50px 0;
+}
+
+/* Preview image container of the item */
+.itemPreview .itemPreviewImg {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(175deg, #64748b, #475569);
+    border-radius: .5rem;
+    padding: 50px 0;
+}
+
+/* Preview image of the item */
+.itemPreview .itemPreviewImg img {
+    width: 65%;
+}
+
+/* Preview details container of the item */
+.itemPreview .itemPreviewDetails {
+    flex: 1;
+}
+
+/* Preview details description container of the item */
+.itemPreview .itemPreviewDetails .desc {
+    
+}
+
+.itemPreview .itemPreviewDetails .desc h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.itemPreview .itemPreviewDetails .desc h1 span {
+    font-weight: 300;
+}
+
+.itemPreview .itemPreviewDetails .desc p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: .5rem 0;
+}
+
+/* P.S Copied from ItemStyles.css file */
+/* Product star ratings container */
+.itemPreviewDetails .review {
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Product star ratings icons */
+.itemPreviewDetails .review svg {
+    color: #d97706;
+    font-size: 1.2rem;
+}
+
+/* Container that holds the available storage types */
+.itemPreview .itemPreviewDetails .desc .storage{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin: .3rem 0;
+}
+
+/* Title of the available storage types */
+.itemPreview .itemPreviewDetails .desc .storage h3{
+    font-weight: 400;
+}
+
+/* List of the available storage types */
+.itemPreview .itemPreviewDetails .desc .storage span {
+    font-weight: 300;
+    border: 1px solid;
+    border-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+    border-image-slice: 1;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+/* Buttons to increase or reduce quantity of item to buy */
+.itemPreview .itemPreviewDetails .buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .8rem 0;
+}
+
+/* Item quantity */
+.itemPreview .itemPreviewDetails .buttons p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.itemPreview .itemPreviewDetails .buttons > span {
+    border: 1px solid;
+    border-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+    border-image-slice: 1;
+    padding: .5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.itemPreview .itemPreviewDetails .addBuy {
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.itemPreview .itemPreviewDetails .addBuy button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-image: linear-gradient(155deg, #94a3b8, #e2e8f0);
+    border-image-slice: 1;
+    cursor: pointer;
+}
+
+.itemPreview .itemPreviewDetails .addBuy button:hover {
+    background-image: linear-gradient(175deg, #64748b, #475569);
+    color: #e2e8f0;
+}
+
+.itemPreview .itemPreviewDetails .deliveryInformation {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.itemPreview .itemPreviewDetails .deliveryInformation svg {
+    font-size: 2rem;
+    color: #d97706;
+}
+
+.itemPreview .itemPreviewDetails .deliveryInformation h2 {
+    font-weight: 400;
+}
+
+.itemPreview .itemPreviewDetails .deliveryInformation h2 span {
+    font-weight: 300;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+    .itemPreview {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

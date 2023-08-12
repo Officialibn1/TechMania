@@ -1,6 +1,7 @@
 import './App.css'
 import About from './Pages/About'
 import Home from './Pages/Home'
+import ItemPreview from './Pages/ItemPreview'
 import Announcement from './components/Announcement'
 import Cart from './components/Cart'
 import Footer from './components/Footer'
@@ -15,7 +16,8 @@ function App() {
         <Navbar />
         {/* <Home />   */}
         {/* <About />    */}
-        <Cart />   
+        {/* <Cart />    */}
+        <ItemPreview />
       </div>  
       <Footer />
     </div>

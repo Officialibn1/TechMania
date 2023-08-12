@@ -104,6 +104,9 @@
 .cartItem .cartItemButtons .delete {
     margin-right: 10px;
 }
+.cartItem .cartItemButtons .delete svg {
+    color: #d97706;
+}
 
 /* Summary of the total items and amount in the cart */
 .deliverySummary {
@@ -152,5 +155,10 @@
     border-image-slice: 1;
 }
 
+@media screen and (max-width: 800px) {
+    .cartContainer {
+        flex-direction: column;
+    }
+}
 
 
