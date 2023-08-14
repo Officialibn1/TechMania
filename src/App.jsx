@@ -14,8 +14,8 @@ function App() {
       {/* <Announcement />  */}
       <div className="container">
         <Navbar />
-        <Home />  
-        {/* <About />    */}
+        {/* <Home />   */}
+        <About />   
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
       </div>  

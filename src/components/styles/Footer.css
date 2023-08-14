@@ -39,6 +39,7 @@ footer .middle ul {
     flex-direction: column;
     gap: .5rem;
 }
+
 footer .middle ul li span {
     color: #f8fafc;
     font-size: 1.4rem;
@@ -98,9 +99,22 @@ footer .right .icons a svg {
         flex-direction: column;
         /* align-items: center; */
         gap: 2rem;
+        padding: 40px 20px;
     }
 
     footer .right {
         margin-top: 30px;
+    }
+
+    footer .middle ul {
+        gap: .3rem;
+    }
+
+    footer .middle ul li span {
+        font-size: 1.2rem;
+    }
+
+    footer .middle ul li a {
+        font-size: .7rem;
     }
 }
