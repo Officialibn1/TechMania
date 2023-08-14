@@ -14,10 +14,10 @@ function App() {
       <Announcement /> 
       <div className="container">
         <Navbar />
-        {/* <Home />   */}
+        <Home />  
         {/* <About />    */}
         {/* <Cart />    */}
-        <ItemPreview />
+        {/* <ItemPreview /> */}
       </div>  
       <Footer />
     </div>
