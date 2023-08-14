@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import ItemPreview from './Pages/ItemPreview'
 // import Announcement from './components/Announcement'
 import Cart from './components/Cart'
+import ChatbotIcon from './components/ChatbotIcon'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
@@ -15,9 +16,10 @@ function App() {
       <div className="container">
         <Navbar />
         {/* <Home />   */}
-        <About />   
+        {/* <About />    */}
         {/* <Cart />    */}
-        {/* <ItemPreview /> */}
+        <ItemPreview />
+        <ChatbotIcon />
       </div>  
       <Footer />
     </div>
