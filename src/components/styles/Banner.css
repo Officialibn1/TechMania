@@ -68,4 +68,31 @@
     .bannerText h1 {
         font-size: 4rem;
     }
+
+
 }
+
+@media screen and (max-width: 570px) {
+    .bannerText > span {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerText p {
+        font-size: 1.3rem;
+    }
+
+    .bannerText h1 {
+        font-size: 2rem;
+    }
+
+    .bannerText > span img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+
+

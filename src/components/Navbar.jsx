@@ -15,14 +15,15 @@ const Navbar = () => {
                 <span>TechMania</span>
             </a>
 
-            <div className="searchCategory">
+            {/* Commented out to reduce completity, the fucntionality might later be considered during future updates */}
+            {/* <div className="searchCategory">
                 <p>Categories</p>
 
                 <div className="search">
                     <input type="search" alt='search item' placeholder='Search Item. . .'/>
                     <BsSearch />
                 </div>
-            </div>
+            </div> */}
 
             <div className="profileCart">
                 <div className="profile">

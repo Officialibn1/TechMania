@@ -12,3 +12,7 @@
 .announcement svg {
     font-size: 3em;
 }
+
+.announcement p {
+    font-size: 1rem;
+}
