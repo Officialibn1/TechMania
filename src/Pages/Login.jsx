@@ -3,7 +3,7 @@ import { BsCart4 } from "react-icons/bs";
 
 const Login = () => {
     return (
-        <div className='loginContainer'>
+        <div className='loginSignupConatainer'>
             <div className="login">
                 <div className="loginLogo">
                     <span>

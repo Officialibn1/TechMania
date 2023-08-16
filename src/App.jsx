@@ -3,6 +3,7 @@ import About from './Pages/About'
 import Home from './Pages/Home'
 import ItemPreview from './Pages/ItemPreview'
 import Login from './Pages/Login'
+import Signup from './Pages/Signup'
 // import Announcement from './components/Announcement'
 import Cart from './components/Cart'
 import ChatbotIcon from './components/ChatbotIcon'
@@ -15,7 +16,8 @@ function App() {
     <div className='mainContainer'>
       {/* <Announcement />  */}
       <div className="container">
-        <Login />
+        {/* <Login /> */}
+        <Signup />
         {/* <Navbar /> */}
         {/* <Home />   */}
         {/* <About />    */}
