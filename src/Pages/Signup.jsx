@@ -16,25 +16,21 @@ const Signup = () => {
                     <h1>Signup</h1>
                 </div>
                 <form action="" method="post" className="loginForm">
-                    {/* First Name input and label */}
-                    <label htmlFor="firstName">Firt Name:</label>
-                    <input type="text" name="firstName" id="firstName" placeholder='First Name' />
-                    
-                    {/* Other Names input and label */}
-                    <label htmlFor="otherNames">Other Names:</label>
-                    <input type="text" name="otherNames" id="otherNames" placeholder='Other Names' />
+                    {/* Full Name input and label */}
+                    <label htmlFor="fullName">Full Name:</label>
+                    <input type="text" name="fullName" id="fullName" placeholder='' />
                     
                     {/* email input and label */}
                     <label htmlFor="loginEmail">Email:</label>
-                    <input type="email" name="loginEmail" id="loginEmail" placeholder='Enter Your Email' />
+                    <input type="email" name="loginEmail" id="loginEmail" placeholder='' />
                     
                     {/* password input and label */}
                     <label htmlFor="loginPassword">Password:</label>
-                    <input type="password" name="loginPassword" id="loginPassword" placeholder='**************' />
+                    <input type="password" name="loginPassword" id="loginPassword" placeholder='' />
                     
                     {/* confirm Password input and label */}
                     <label htmlFor="confirmPassword">Confirm Password:</label>
-                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder='**************' />
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder='' />
 
                     {/* submit button */}
                     <button type="submit" className="submit" id="submit">
