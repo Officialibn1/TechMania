@@ -20,8 +20,8 @@ function App() {
         {/* <Login /> */}
         {/* <Signup /> */}
         <Navbar />
-        <Profile />
-        {/* <Home />   */}
+        {/* <Profile /> */}
+        <Home />  
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
