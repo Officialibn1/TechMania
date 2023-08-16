@@ -2,6 +2,7 @@ import './App.css'
 import About from './Pages/About'
 import Home from './Pages/Home'
 import ItemPreview from './Pages/ItemPreview'
+import Login from './Pages/Login'
 // import Announcement from './components/Announcement'
 import Cart from './components/Cart'
 import ChatbotIcon from './components/ChatbotIcon'
@@ -14,14 +15,15 @@ function App() {
     <div className='mainContainer'>
       {/* <Announcement />  */}
       <div className="container">
-        <Navbar />
+        <Login />
+        {/* <Navbar /> */}
         {/* <Home />   */}
         {/* <About />    */}
         {/* <Cart />    */}
-        <ItemPreview />
-        <ChatbotIcon />
+        {/* <ItemPreview /> */}
+        {/* <ChatbotIcon /> */}
       </div>  
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
