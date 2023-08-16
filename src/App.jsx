@@ -25,7 +25,7 @@ function App() {
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
-        {/* <ChatbotIcon /> */}
+        <ChatbotIcon />
       </div>  
       <Footer />
     </div>
