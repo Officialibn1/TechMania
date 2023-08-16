@@ -150,7 +150,6 @@
 .deliverySummary .confirm button:hover{
     background: transparent;
     color: #1e293b;
-    /* border: 1px solid; */
     border-image: linear-gradient(-155deg, #94a3b8, #e2e8f0);
     border-image-slice: 1;
 }

@@ -19,15 +19,15 @@ function App() {
       <div className="container">
         {/* <Login /> */}
         {/* <Signup /> */}
+        <Navbar />
         <Profile />
-        {/* <Navbar /> */}
         {/* <Home />   */}
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
         {/* <ChatbotIcon /> */}
       </div>  
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

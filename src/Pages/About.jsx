@@ -4,7 +4,7 @@ import AboutText from '../components/AboutText';
 
 const About = () => {
     return (
-        <div>
+        <div className='about'>
             <AboutBanner />
             <AboutText />
         </div>
