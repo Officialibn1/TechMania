@@ -1,4 +1,4 @@
-import '../components/styles/Login.css'
+import '../components/styles/LoginSignup.css'
 import { BsCart4 } from "react-icons/bs";
 
 const Login = () => {
