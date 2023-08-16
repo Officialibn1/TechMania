@@ -74,7 +74,7 @@ const Profile = () => {
 
                     {/* Postal Code Container */}
                     <div className="formInputsContainer">
-                        <label htmlFor="editPostalCode" className="editPostalCode">Edit Name:</label>
+                        <label htmlFor="editPostalCode" className="editPostalCode">Postal Code:</label>
                         <input type="number" name="editPostalCode" id="editPostalCode" className="editPostalCode" />
                     </div>
 
