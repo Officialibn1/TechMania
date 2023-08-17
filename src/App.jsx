@@ -7,6 +7,7 @@ import Login from './Pages/Login'
 import Phones from './Pages/Phones'
 import Profile from './Pages/Profile'
 import Signup from './Pages/Signup'
+import Tablets from './Pages/Tablets'
 // import Announcement from './components/Announcement'
 import Cart from './components/Cart'
 import ChatbotIcon from './components/ChatbotIcon'
@@ -25,7 +26,8 @@ function App() {
         {/* <Profile /> */}
         {/* <Home />   */}
         {/* <Phones /> */}
-        <Laptops />
+        {/* <Laptops /> */}
+        <Tablets />
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
