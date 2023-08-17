@@ -2,6 +2,7 @@ import './App.css'
 import About from './Pages/About'
 import Home from './Pages/Home'
 import ItemPreview from './Pages/ItemPreview'
+import Laptops from './Pages/Laptops'
 import Login from './Pages/Login'
 import Phones from './Pages/Phones'
 import Profile from './Pages/Profile'
@@ -23,7 +24,8 @@ function App() {
         <Navbar />
         {/* <Profile /> */}
         {/* <Home />   */}
-        <Phones />
+        {/* <Phones /> */}
+        <Laptops />
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
