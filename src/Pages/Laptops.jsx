@@ -10,7 +10,7 @@ const Laptops = () => {
             <div className="phonesLaptopsBanner">
                 <h1>Laptop&apos;s</h1>
                 <span className="phonesLaptopsBannerImg">
-                    <img src="../../public/banner.png" alt="iphone13probanner" />
+                    <img src="../../public/banner.png" alt="banner" />
                 </span>
             </div>
 

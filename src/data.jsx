@@ -142,3 +142,42 @@ export const samsungs =  [
         star: 5
     },
 ]
+
+export const ipads = [
+    {
+        id: 1,
+        name: `iPad 10th Gen 10.9`,
+        price: `N580,799`,
+        img: `ipad10thgenblue.png`,
+        chip: `M2 chip`,
+        chipImg: `m2chip.png`,
+        star: 4.5
+    },
+    {
+        id: 1,
+        name: `iPad Air 10.9`,
+        price: `N580,799`,
+        img: `ipad10thgenblue.png`,
+        chip: `M2 chip`,
+        chipImg: `m2chip.png`,
+        star: 4.5
+    },
+    {
+        id: 1,
+        name: `iPad Air 10.9`,
+        price: `N580,799`,
+        img: `ipad10thgenblue.png`,
+        chip: `M2 chip`,
+        chipImg: `m2chip.png`,
+        star: 4.5
+    },
+    {
+        id: 1,
+        name: `iPad Air 10.9`,
+        price: `N580,799`,
+        img: `ipad10thgenblue.png`,
+        chip: `M2 chip`,
+        chipImg: `m2chip.png`,
+        star: 4.5
+    },
+]
