@@ -3,6 +3,7 @@ import About from './Pages/About'
 import Home from './Pages/Home'
 import ItemPreview from './Pages/ItemPreview'
 import Login from './Pages/Login'
+import Phones from './Pages/Phones'
 import Profile from './Pages/Profile'
 import Signup from './Pages/Signup'
 // import Announcement from './components/Announcement'
@@ -21,7 +22,8 @@ function App() {
         {/* <Signup /> */}
         <Navbar />
         {/* <Profile /> */}
-        <Home />  
+        {/* <Home />   */}
+        <Phones />
         {/* <About />    */}
         {/* <Cart />    */}
         {/* <ItemPreview /> */}
