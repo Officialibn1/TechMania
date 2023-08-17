@@ -1,11 +1,11 @@
-import './styles/ItemStyles.css'
-import { macBooks } from "../data";
-import Macbook from './Macbook';
 import { BsArrowRight } from "react-icons/bs";
+import { ipads } from "../data";
+import Ipad from "./Ipad";
 
-const Macbooks = () => {
+
+const Ipads = () => {
     return (
-        <div className="macBook">
+        <div className="ipads">
             <div className="barLine"></div>
             <div className="header">
                 <h1>
@@ -15,13 +15,12 @@ const Macbooks = () => {
             </div>
 
             <div className="itemContainer">
-                {macBooks.map(mac => (
-                    <Macbook key={mac.id} mac={mac}/> 
-                ))}
-               
+                {ipads.map(ipad => (
+                    <Ipad key={ipad.id} ipad={ipad}/> 
+                ))}   
             </div>
         </div>
     );
 }
 
-export default Macbooks;
+export default Ipads;

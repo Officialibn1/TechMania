@@ -1,20 +1,20 @@
 /* eslint-disable react/prop-types */
-import { BsStarFill, BsStarHalf, BsHeart } from "react-icons/bs";
-import './styles/ItemStyles.css'
+import { BsHeart, BsStarFill, BsStarHalf } from "react-icons/bs";
 
-const Macbook = ({ mac }) => {
+
+const Ipad = ({ ipad }) => {
     return (
-        <div className="item">
+        <div className="item phoneItem">
             <div className="itemImg">
             <div className="favourite">
                     <BsHeart />
                 </div>
-                <img src={mac.img} alt="macbook" />
+                <img src={ipad.img} alt="macbook" />
             </div>
 
             <div className="itemText">
-                <span>{mac.chip} <img src={mac.chipImg} alt="m2chip" /> <p className="price">{mac.price}</p> </span>
-                <h1>{mac.name}&quot;</h1>
+                <span>{ipad.chip} <img src={ipad.chipImg} alt="m2chip" /> <p className="price">{ipad.price}</p> </span>
+                <h1>{ipad.name}&quot;</h1>
                 <div className="review">
                     <BsStarFill />
                     <BsStarFill />
@@ -30,4 +30,4 @@ const Macbook = ({ mac }) => {
     );
 }
 
-export default Macbook;
+export default Ipad;

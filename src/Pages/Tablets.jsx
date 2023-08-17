@@ -1,3 +1,5 @@
+import Ipad from "../components/Ipad";
+import { ipads } from "../data";
 
 const Tablets = () => {
     return (
@@ -17,6 +19,13 @@ const Tablets = () => {
             </div>
 
             <div className="categoriesBarLine"></div>
+
+
+            <div className="itemContainer">
+                {ipads.map(ipad => (
+                    <Ipad key={ipad.id} ipad={ipad}/> 
+                ))}   
+            </div>
 
         </div>
     );
